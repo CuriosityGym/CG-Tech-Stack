@@ -7,6 +7,7 @@ addComponent("Motion Control", "IMU", "10");
 
 
 
+
 addComponent("Open Source", "OpenCV","10","magenta");
 addComponent("Open Source", "OSHWA","12","magenta");
 addComponent("Open Source", "Raspbian","14","magenta");
@@ -15,6 +16,7 @@ addComponent("Open Source", "Arduino","20","magenta");
 addComponent("Open Source", "mBED","4","magenta");
 addComponent("Open Source", "Thingspeak","10","magenta");
 addComponent("Open Source", "IFTTT","10","magenta");
+
 
 
 addComponent("API/WebServices", "IFTTT","10","cyan");
@@ -66,6 +68,28 @@ addComponent("Low Level Interfaces", "Serial","8" ,"blue");
 addComponent("Low Level Interfaces", "Analog","10" ,"blue");
 addComponent("Low Level Interfaces", "MQTT","9" ,"blue");
 addComponent("Low Level Interfaces", "FDX","9" ,"blue");
+
+addComponent("Sensors", "Camera","3", "orange");
+addComponent("Sensors", "Temperature","4","orange");
+addComponent("Sensors", "Humidity","6","orange");
+addComponent("Sensors", "Vibration","10" ,"orange");
+addComponent("Sensors", "Knock","8" ,"orange");
+addComponent("Sensors", "Infrared","10" ,"orange");
+addComponent("Sensors", "Hall","9" ,"orange");
+addComponent("Sensors", "Orientation","9" ,"orange");
+addComponent("Sensors", "Bend/Flex","9" ,"orange");
+addComponent("Sensors", "Ultrasonic","12" ,"orange");
+addComponent("Sensors", "Pressure","3" ,"orange");
+addComponent("Sensors", "Color","4" ,"orange");
+
+addComponent("Actuators", "Displays","3", "GreenYellow ");
+addComponent("Actuators", "Servo","4","GreenYellow ");
+addComponent("Actuators", "Relay","6","GreenYellow ");
+addComponent("Actuators", "DC Motor","10" ,"GreenYellow ");
+addComponent("Actuators", "Stepper Motor","8" ,"GreenYellow ");
+addComponent("Actuators", "Solenoid Valves","10" ,"GreenYellow ");
+addComponent("Actuators", "Fan","9" ,"GreenYellow ");
+
 
 
 
