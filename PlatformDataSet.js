@@ -81,6 +81,7 @@ addComponent("Sensors", "Bend/Flex","9" ,"orange");
 addComponent("Sensors", "Ultrasonic","12" ,"orange");
 addComponent("Sensors", "Pressure","3" ,"orange");
 addComponent("Sensors", "Color","4" ,"orange");
+addComponent("Sensors", "Light","4" ,"orange");
 
 addComponent("Actuators", "Displays","3", "GreenYellow ");
 addComponent("Actuators", "Servo","4","GreenYellow ");
@@ -89,7 +90,7 @@ addComponent("Actuators", "DC Motor","10" ,"GreenYellow ");
 addComponent("Actuators", "Stepper Motor","8" ,"GreenYellow ");
 addComponent("Actuators", "Solenoid Valves","10" ,"GreenYellow ");
 addComponent("Actuators", "Fan","9" ,"GreenYellow ");
-
+addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow ");
 
 
 
