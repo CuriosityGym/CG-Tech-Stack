@@ -281,6 +281,7 @@ addComponent("Solar Tracker", "Light","4" ,"orange");
 addComponent("Solar Tracker", "Arduino","3","yellow");
 addComponent("Solar Tracker", "Arduino","20","magenta");
 addComponent("Solar Tracker", "3D Printing","9" ,"Violet");
+
 //Alexa Voice Controlled Switch
 addComponent("Alexa Voice Controlled Switch", "Voice/TTS", "10");
 addComponent("Alexa Voice Controlled Switch", "Wifi","20","green");

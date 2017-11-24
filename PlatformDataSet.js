@@ -94,4 +94,4 @@ addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow ");
 
 
 
-//console.log(renderingJSON);
+console.log(renderingJSON);
