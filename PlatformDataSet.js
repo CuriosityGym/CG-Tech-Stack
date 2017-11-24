@@ -18,7 +18,6 @@ addComponent("Open Source", "Thingspeak","10","magenta");
 addComponent("Open Source", "IFTTT","10","magenta");
 
 
-
 addComponent("API/WebServices", "IFTTT","10","cyan");
 addComponent("API/WebServices", "Thingspeak","12","cyan");
 addComponent("API/WebServices", "Bebottle","14","cyan");
@@ -94,4 +93,4 @@ addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow ");
 
 
 
-console.log(renderingJSON);
+//console.log(renderingJSON);

@@ -11,8 +11,9 @@
   stroke-width: 1.5px;
 }
 
-.node--leaf {
-  fill: white;
+.node--leaf :hover{
+  stroke: #000;
+  stroke-width: 1.5px;
 }
 
 .label {
@@ -24,7 +25,7 @@
 .label,
 .node--root,
 .node--leaf {
-  pointer-events: none;
+  
 }
 .bigLabel
 {
@@ -38,6 +39,10 @@
 <script src="d3/d3.min.js"></script>
 <script src="flare.js"></script>
 <script src="PlatformDataSet.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/tipsy.js"></script>
+<link rel="stylesheet" type="text/css" href="css/tipsy.css">
+
 <script>
 
 
@@ -71,7 +76,9 @@ var pack = d3.pack()
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) {return d.children ? color(d.depth) : d.data.color; })
+	  .attr("tool_tip_text", function(d){return d.children ? color(d.depth) : d.data.color;})
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+	  
 	  
 	  
 
@@ -102,11 +109,12 @@ var pack = d3.pack()
           return function(t) { zoomTo(i(t)); };
         });
 
-    transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+   transition.selectAll("text")
+		//.filter(function(d){console.log(d); console.log(focus); console.log(d===focus? 1:""); return true})
+        .filter(function(d) { return (d.parent === focus || this.style.display === "inline"|| d===focus ); })
+        .style("fill-opacity", function(d) {return (d.parent === focus || d===focus) ? 1 : 0;})
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; if(d===focus && !d.children) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; if(d===focus && !d.children) this.style.display = "inline"; });
   }
 
   function zoomTo(v) {
@@ -114,6 +122,16 @@ var pack = d3.pack()
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     circle.attr("r", function(d) { return d.r * k; });
   }
+  
+  $('svg circle').tipsy({ 
+        gravity: 'w', 
+        html: true, 
+        title: function() {
+          //var d = this.__data__, c = colors(d.i);
+		  //console.log(this);
+          return d3.select(this).attr("tool_tip_text");
+        }
+      });
 
 
 </script>
