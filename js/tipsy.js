@@ -235,7 +235,7 @@
         offset: 0,
         opacity: 0.8,
         title: 'title',
-        trigger: 'hover',
+        trigger: 'manual',
         hoverlock: false
     };
     

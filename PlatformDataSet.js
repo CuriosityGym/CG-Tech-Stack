@@ -1,9 +1,9 @@
-addComponent("Motion Control", "PID", "10");
-addComponent("Motion Control", "Image Recognition", "10");
-addComponent("Motion Control", "Voice/TTS", "10");
-addComponent("Motion Control", "Kinect", "10");
-addComponent("Motion Control", "Leap Motion", "10");
-addComponent("Motion Control", "IMU", "10");
+addComponent("Motion Control", "PID", "10","white","Proportional Integral Derviative");
+addComponent("Motion Control", "Image Recognition", "10", "white", "Recognise Images with Cameras");
+addComponent("Motion Control", "Voice/TTS", "10", "white", "Voice Enunciated And Assistants");
+addComponent("Motion Control", "Kinect", "10", "white", "Live Motion Control");
+addComponent("Motion Control", "Leap Motion", "10", "white", "Finger Gesture Control");
+addComponent("Motion Control", "IMU", "10", "white", "Inertial Measurement Unit");
 
 
 
@@ -82,14 +82,14 @@ addComponent("Sensors", "Pressure","3" ,"orange");
 addComponent("Sensors", "Color","4" ,"orange");
 addComponent("Sensors", "Light","4" ,"orange");
 
-addComponent("Actuators", "Displays","3", "GreenYellow ");
-addComponent("Actuators", "Servo","4","GreenYellow ");
-addComponent("Actuators", "Relay","6","GreenYellow ");
-addComponent("Actuators", "DC Motor","10" ,"GreenYellow ");
-addComponent("Actuators", "Stepper Motor","8" ,"GreenYellow ");
-addComponent("Actuators", "Solenoid Valves","10" ,"GreenYellow ");
-addComponent("Actuators", "Fan","9" ,"GreenYellow ");
-addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow ");
+addComponent("Actuators", "Displays","3", "GreenYellow");
+addComponent("Actuators", "Servo","4","GreenYellow");
+addComponent("Actuators", "Relay","6","GreenYellow");
+addComponent("Actuators", "DC Motor","10" ,"GreenYellow");
+addComponent("Actuators", "Stepper Motor","8" ,"GreenYellow");
+addComponent("Actuators", "Solenoid Valves","10" ,"GreenYellow");
+addComponent("Actuators", "Fan","9" ,"GreenYellow");
+addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow");
 
 
 

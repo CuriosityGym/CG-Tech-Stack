@@ -39,7 +39,7 @@ function addApplication(AppName)
 		
 }
 
-function addComponent(AppName, componentName, circleSize, color="white")
+function addComponent(AppName, componentName, circleSize, color="white", toolTipText="")
 {
 	applicationIndex=doesApplicationExists(AppName);
 	//console.log(AppName + " applicationIndex: "+applicationIndex);
@@ -53,6 +53,8 @@ function addComponent(AppName, componentName, circleSize, color="white")
 	renderingJSON["children"][applicationIndex]["children"][componentsLength].name=componentName
 	renderingJSON["children"][applicationIndex]["children"][componentsLength].size=circleSize
 	renderingJSON["children"][applicationIndex]["children"][componentsLength].color=color;
+	renderingJSON["children"][applicationIndex]["children"][componentsLength].toolTipText=toolTipText;
+	
 	
 	
 	

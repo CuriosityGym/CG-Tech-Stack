@@ -76,7 +76,7 @@ var pack = d3.pack()
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) {return d.children ? color(d.depth) : d.data.color; })
-	  .attr("tool_tip_text", function(d){return d.children ? color(d.depth) : d.data.color;})
+	  .attr("tool_tip_text", function(d){return d.children ? "" : d.data.toolTipText;})
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 	  
 	  
@@ -110,11 +110,35 @@ var pack = d3.pack()
         });
 
    transition.selectAll("text")
-		//.filter(function(d){console.log(d); console.log(focus); console.log(d===focus? 1:""); return true})
+		 //.filter(function(d){console.log(d.parent); console.log(focus); console.log(d===focus? 1:""); return true})
         .filter(function(d) { return (d.parent === focus || this.style.display === "inline"|| d===focus ); })
         .style("fill-opacity", function(d) {return (d.parent === focus || d===focus) ? 1 : 0;})
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; if(d===focus && !d.children) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; if(d===focus && !d.children) this.style.display = "inline"; });
+        .on("start", function(d) {
+					
+					if (d.parent === focus)
+					{
+							this.style.display = "inline"; 
+					}		
+					if(d===focus && !d.children)
+					{
+						this.style.display = "inline"; 
+					}
+					if(!focus.parent)
+					{
+						
+					}					
+		})
+        .on("end", function(d) { 
+					if (d.parent !== focus) 
+					{
+						this.style.display = "none";
+					}
+					if(d===focus && !d.children)
+					{		
+						this.style.display = "inline"; 
+					}
+
+		});
   }
 
   function zoomTo(v) {
@@ -127,10 +151,10 @@ var pack = d3.pack()
         gravity: 'w', 
         html: true, 
         title: function() {
-          //var d = this.__data__, c = colors(d.i);
-		  //console.log(this);
+          
           return d3.select(this).attr("tool_tip_text");
-        }
+        },
+		trigger:'hover'
       });
 
 
