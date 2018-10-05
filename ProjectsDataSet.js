@@ -183,7 +183,6 @@ addComponent("Uber One Button Booking", "ESP8266","10","yellow","Wemos D1 Mini")
 addComponent("Uber One Button Booking", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
 addComponent("Uber One Button Booking", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
 addComponent("Uber One Button Booking", "3D Printing","9" ,"Violet");
-
 //Pill Reminder
 addComponent("Pill Reminder", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("Pill Reminder", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
@@ -215,7 +214,6 @@ addComponent("Spool Weight Measurement", "ESP8266","10","yellow","Wemos D1 Mini"
 addComponent("Spool Weight Measurement", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
 addComponent("Spool Weight Measurement", "Thingspeak","12","cyan","IoT platform that lets you collect and store sensor data in the cloud and develop IoT applications");
 addComponent("Spool Weight Measurement", "3D Printing","9" ,"Violet");
-
 //XY Image Plotter
 addComponent("XY Image Plotter", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("XY Image Plotter", "Arduino","3","yellow","Arduino MEGA");
@@ -223,28 +221,24 @@ addComponent("XY Image Plotter", "Displays","3", "GreenYellow ","LCD Module");
 addComponent("XY Image Plotter", "Servo","4","GreenYellow ","Servo MG90");
 addComponent("XY Image Plotter", "Stepper Motor","10" ,"GreenYellow ","Stepper Motor");
 addComponent("XY Image Plotter", "3D Printing","9" ,"Violet");
-
 //Filament Cutter
 addComponent("Filament Cutter", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("Filament Cutter", "Arduino","3","yellow","Arduino NANO");
 addComponent("Filament Cutter", "DC Motor","10" ,"GreenYellow ","DC Geared Motor");
 addComponent("Filament Cutter", "Stepper Motor","10" ,"GreenYellow ","Stepper Motor");
 addComponent("Filament Cutter", "3D Printing","9" ,"Violet");
-
 //OTTO Dancing Bot
 addComponent("OTTO Dancing Bot", "Servo","4","GreenYellow ","Servo SG90");
 addComponent("OTTO Dancing Bot", "Ultrasonic","12" ,"orange","HC-SR04 Ultrasonic Distance Measuring Sensor");
 addComponent("OTTO Dancing Bot", "Arduino","3","yellow","Arduino NANO");
 addComponent("OTTO Dancing Bot", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("OTTO Dancing Bot", "3D Printing","9" ,"Violet");
-
 //Camera Eye Shutter
 addComponent("Camera Eye Shutter", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("Camera Eye Shutter", "Arduino","3","yellow","Arduino NANO");
 addComponent("Camera Eye Shutter", "Light","4" ,"orange","LDR");
 addComponent("Camera Eye Shutter", "Servo","4","GreenYellow ","Servo V3003");
 addComponent("Camera Eye Shutter", "3D Printing","9" ,"Violet");
-
 //CG Robotics Bot
 addComponent("CG Robotics Bot", "Servo","4","GreenYellow ","Servo SG90");
 addComponent("CG Robotics Bot", "Ultrasonic","12" ,"orange","HC-SR04 Ultrasonic Distance Measuring Sensor");
@@ -255,7 +249,6 @@ addComponent("CG Robotics Bot", "Infrared","10" ,"orange","IR infrared sensor");
 addComponent("CG Robotics Bot", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
 addComponent("CG Robotics Bot", "DC Motor","10" ,"GreenYellow ","BO DC Motor");
 addComponent("CG Robotics Bot", "3D Printing","9" ,"Violet");
-
 //CG Temp/Hum Mote
 addComponent("CG Temp/Hum Mote", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("CG Temp/Hum Mote", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
@@ -276,7 +269,6 @@ addComponent("Bicycle Generator", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multi
 addComponent("Bicycle Generator", "DC Motor","10" ,"GreenYellow ","Generator Motor");
 addComponent("Bicycle Generator", "Hall","9" ,"orange","BMES A3144 Hall Sensor");
 addComponent("Bicycle Generator", "3D Printing","9" ,"Violet");
-
 //Magic Mirror
 addComponent("Magic Mirror", "Raspbian","14","magenta","Raspbian is the raspberry pi’s official supported operating system");
 addComponent("Magic Mirror", "Wifi","20","green","USB WiFi Dongle");
@@ -295,5 +287,134 @@ addComponent("Alexa Voice Controlled Switch", "Wifi","20","green","technology fo
 addComponent("Alexa Voice Controlled Switch", "ESP8266","10","yellow","ESP201");
 addComponent("Alexa Voice Controlled Switch", "Relay","6","GreenYellow ","5v Relay Module");
 
-	
 
+//Photobooth
+addComponent("Photobooth", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Photobooth", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Photobooth", "RaspberryPi","10","yellow","Raspberry Pi3");
+addComponent("Photobooth", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+addComponent("Photobooth", "Displays","8" ,"GreenYellow ","8*8 Dot Matrix Display");
+addComponent("Photobooth", "3D Printing","9" ,"Violet");
+
+//Wearable: Shoe Light
+addComponent("Wearable: Shoe Light", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Wearable: Shoe Light", "AtTiny85","10","yellow","Digispark Dev Board");
+addComponent("Wearable: Shoe Light", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
+addComponent("Wearable: Shoe Light", "3D Printing","9" ,"Violet");
+
+//Rube Goldberg; Email Trigger
+addComponent("Rube Goldberg; Email Trigger", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Rube Goldberg; Email Trigger", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Rube Goldberg; Email Trigger", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Rube Goldberg; Email Trigger", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Rube Goldberg; Email Trigger", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
+addComponent("Rube Goldberg; Email Trigger", "Switch","9" ,"orange","");
+addComponent("Rube Goldberg; Email Trigger", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+addComponent("Rube Goldberg; Email Trigger", "3D Printing","9" ,"Violet");
+
+//Marble Maze
+addComponent("Marble Maze", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Marble Maze", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Marble Maze", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Marble Maze", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Marble Maze", "Servo","10" ,"GreenYellow ","SG 90");
+addComponent("Marble Maze", "Orientation","9" ,"orange","MPU9050");
+addComponent("Marble Maze", "3D Printing","9" ,"Violet");
+
+
+//Blinds Control
+addComponent("Blinds Control", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Blinds Control", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Blinds Control", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Blinds Control", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Blinds Control", "Stepper Motor","10" ,"GreenYellow ","Generator Motor");
+addComponent("Blinds Control", "Blynk","10","cyan","It's an end-to-end solution which saves you time and resources when building applications for connected products and services.");
+addComponent("Blinds Control", "3D Printing","9" ,"Violet");
+					
+//Rpi based Home Automation 
+addComponent("Rpi based Home Automation", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Rpi based Home Automation", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Rpi based Home Automation", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Rpi based Home Automation", "RaspberryPi","10","yellow","Raspberry Pi3");
+addComponent("Rpi based Home Automation", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Rpi based Home Automation", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
+addComponent("Rpi based Home Automation", "DC Motor","10" ,"GreenYellow ","Generator Motor");
+addComponent("Rpi based Home Automation", "Relay","6","GreenYellow ","5v Relay Module");
+addComponent("Rpi based Home Automation", "Hall","9" ,"orange","BMES A3144 Hall Sensor");
+addComponent("Rpi based Home Automation", "Temperature","4","orange");
+addComponent("Rpi based Home Automation", "Humidity","6","orange");
+addComponent("Rpi based Home Automation", "3D Printing","9" ,"Violet");
+
+//ESP8266 based Home Automation 
+addComponent("ESP8266 based Home Automation", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("ESP8266 based Home Automation", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("ESP8266 based Home Automation", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("ESP8266 based Home Automation", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("ESP8266 based Home Automation", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
+addComponent("ESP8266 based Home Automation", "DC Motor","10" ,"GreenYellow ","Generator Motor");
+addComponent("ESP8266 based Home Automation", "Relay","6","GreenYellow ","5v Relay Module");
+addComponent("ESP8266 based Home Automation", "Motion","9" ,"orange","PIR Sensor");
+addComponent("ESP8266 based Home Automation", "Magnetic Switch","9" ,"orange","Magnetic Reed Switch");
+addComponent("ESP8266 based Home Automation", "Temperature","4","orange");
+addComponent("ESP8266 based Home Automation", "Humidity","6","orange");
+addComponent("ESP8266 based Home Automation", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+addComponent("ESP8266 based Home Automation", "Thingspeak","12","cyan","IoT platform that lets you collect and store sensor data in the cloud and develop IoT applications");
+addComponent("ESP8266 based Home Automation", "Blynk","10","cyan","It's an end-to-end solution which saves you time and resources when building applications for connected products and services.");
+addComponent("ESP8266 based Home Automation", "3D Printing","9" ,"Violet");
+
+//Arduino based Home Automation 
+addComponent("Arduino based Home Automation", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Arduino based Home Automation", "Arduino","10","yellow","Arduino Uno");
+addComponent("Arduino based Home Automation", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Arduino based Home Automation", "LED/WS2812","8" ,"GreenYellow ","WS2812 Multicolor LED");
+addComponent("Arduino based Home Automation", "DC Motor","10" ,"GreenYellow ","Generator Motor");
+addComponent("Arduino based Home Automation", "Relay","6","GreenYellow ","5v Relay Module");
+addComponent("Arduino based Home Automation", "Hall","9" ,"orange","BMES A3144 Hall Sensor");
+addComponent("Arduino based Home Automation", "Temperature","4","orange");
+addComponent("Arduino based Home Automation", "Humidity","6","orange");
+addComponent("Arduino based Home Automation", "3D Printing","9" ,"Violet");
+
+//Person Tracker
+addComponent("Person Tracker", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Person Tracker", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Person Tracker", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Person Tracker", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Person Tracker", "LED/WS2812","8" ,"GreenYellow ","LED");
+addComponent("Person Tracker", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+addComponent("Person Tracker", "3D Printing","9" ,"Violet");
+
+//MeToo Button
+addComponent("MeToo Button", "Buzzer","8" ,"GreenYellow ","Buzzer");
+addComponent("MeToo Button", "3D Printing","9" ,"Violet");
+		
+//Drowsiness Detector
+addComponent("Drowsiness Detector", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Drowsiness Detector", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Drowsiness Detector", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Drowsiness Detector", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Drowsiness Detector", "Buzzer","8" ,"GreenYellow ","Buzzer");
+addComponent("Drowsiness Detector", "Orientation","9" ,"orange","MPU6050");
+addComponent("Drowsiness Detector", "3D Printing","9" ,"Violet");
+
+//Plsatic Bottle Chair
+addComponent("Plsatic Bottle Chair", "3D Printing","9" ,"Violet");
+
+
+//Smart Display
+addComponent("Smart Display", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Smart Display", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Smart Display", "ESP8266","10","yellow","Wemos D1 Mini");
+addComponent("Smart Display", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Smart Display", "Displays","8" ,"GreenYellow ","WS2812 32*8 Matrix Display");
+addComponent("Smart Display", "Blynk","10","cyan","It's an end-to-end solution which saves you time and resources when building applications for connected products and services.");
+addComponent("Smart Display", "3D Printing","9" ,"Violet");
+
+//Skipping Rope Counter
+addComponent("Skipping Rope Counter", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Skipping Rope Counter", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Skipping Rope Counter", "ESP8266","10","yellow","ESP 01");
+addComponent("Skipping Rope Counter", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Skipping Rope Counter", "Position","9" ,"orange","Rotary Encoder");
+addComponent("Skipping Rope Counter", "Thingspeak","12","cyan","IoT platform that lets you collect and store sensor data in the cloud and develop IoT applications");
+addComponent("Skipping Rope Counter", "3D Printing","9" ,"Violet");
+								
