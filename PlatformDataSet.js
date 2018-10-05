@@ -49,6 +49,7 @@ addComponent("Boards", "Cortex M0/M3","6","yellow","Smallest and Lowest Power Co
 addComponent("Boards", "NRF51822","6","yellow","powerful, highly flexible multiprotocol SoC ideally suited for Bluetooth® low energy and 2.4GHz ultra low-power wireless applications");
 addComponent("Boards", "ESP8266","10","yellow","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
 addComponent("Boards", "ESP32","8","yellow","low cost, low power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth");
+addComponent("Boards", "AtTiny85","8","yellow","low cost, low power system on a chip microcontrollers ");
 
 addComponent("Drivers", "Arduino","3", "red","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
 addComponent("Drivers", "Linkit","4","red"," development platform enables you to design and prototype Wearable and Internet of Things (IoT) devices, using hardware and an API");
@@ -81,6 +82,11 @@ addComponent("Sensors", "Ultrasonic","12" ,"orange","measures the distance to an
 addComponent("Sensors", "Pressure","3" ,"orange","measures the pressure of a gas or a liquid against a diaphragm made of stainless steel, silicon, etc., and converts the measured value into an electrical signal as an output");
 addComponent("Sensors", "Color","4" ,"orange","emits light and then look at the reflected light to determine an object’s color");
 addComponent("Sensors", "Light","4" ,"orange","changes its resistance when light shines on it");
+addComponent("Sensors", "Position","4" ,"orange","position sensor which is used for determining the angular position of a rotating shaft");
+addComponent("Sensors", "Magnetic Switch","4" ,"orange","Reed switches actuated by magnets are commonly used in mechanical systems as proximity sensors");
+addComponent("Sensors", "Motion","4" ,"orange","detect motion by levels of infrared radiation");
+addComponent("Sensors", "Switch","4" ,"orange"," ");
+
 
 addComponent("Actuators", "Displays","8", "GreenYellow","display are used to display visual characters, images or information");
 addComponent("Actuators", "Servo","8","GreenYellow", "a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration");
@@ -90,6 +96,7 @@ addComponent("Actuators", "Stepper Motor","8" ,"GreenYellow","Stepper motors are
 addComponent("Actuators", "Solenoid Valves","4" ,"GreenYellow","an electromechanically operated valve");
 addComponent("Actuators", "Fan","4" ,"GreenYellow","an apparatus with rotating blades that creates a current of air for cooling or ventilation");
 addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow","emits visible light when an electric current passes through it");
+addComponent("Actuators", "Buzzer","8" ,"GreenYellow"," buzzer produces a same noisy sound irrespective of the voltage variation applied to it.");
 
 
 
