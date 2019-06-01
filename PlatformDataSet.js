@@ -86,7 +86,11 @@ addComponent("Sensors", "Position","4" ,"orange","position sensor which is used 
 addComponent("Sensors", "Magnetic Switch","4" ,"orange","Reed switches actuated by magnets are commonly used in mechanical systems as proximity sensors");
 addComponent("Sensors", "Motion","4" ,"orange","detect motion by levels of infrared radiation");
 addComponent("Sensors", "Switch","4" ,"orange"," ");
-
+addComponent("Sensors", "RFID","4" ,"orange","Detects RFID tags if place it near the reader");
+addComponent("Sensors", "Sound","4" ,"orange"," ");
+addComponent("Sensors", "Potentiometer","4" ,"orange"," ");
+addComponent("Sensors", "Heart Rate","4" ,"orange"," ");
+addComponent("Sensors", "Moisture","4" ,"orange"," ");
 
 addComponent("Actuators", "Displays","8", "GreenYellow","display are used to display visual characters, images or information");
 addComponent("Actuators", "Servo","8","GreenYellow", "a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration");
@@ -97,7 +101,7 @@ addComponent("Actuators", "Solenoid Valves","4" ,"GreenYellow","an electromechan
 addComponent("Actuators", "Fan","4" ,"GreenYellow","an apparatus with rotating blades that creates a current of air for cooling or ventilation");
 addComponent("Actuators", "LED/WS2812","8" ,"GreenYellow","emits visible light when an electric current passes through it");
 addComponent("Actuators", "Buzzer","8" ,"GreenYellow"," buzzer produces a same noisy sound irrespective of the voltage variation applied to it.");
-
+addComponent("Actuators", "Vibration Motor","4" ,"GreenYellow"," ");
 
 
 //console.log(renderingJSON);
