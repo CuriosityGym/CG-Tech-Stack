@@ -417,4 +417,96 @@ addComponent("Skipping Rope Counter", "ESP8266","9","red","a low-cost Wi-Fi chip
 addComponent("Skipping Rope Counter", "Position","9" ,"orange","Rotary Encoder");
 addComponent("Skipping Rope Counter", "Thingspeak","12","cyan","IoT platform that lets you collect and store sensor data in the cloud and develop IoT applications");
 addComponent("Skipping Rope Counter", "3D Printing","9" ,"Violet");
+
+//Quiz Game for Visually impaired
+addComponent("Quiz Game for Visually impaired", "RaspberryPi","10","yellow","Raspberry Pi3");
+addComponent("Quiz Game for Visually impaired", "RFID","6","orange");
+addComponent("Quiz Game for Visually impaired", "3D Printing","9" ,"Violet");
+addComponent("Quiz Game for Visually impaired", "Raspbian","14","magenta","Raspbian is the raspberry pi’s official supported operating system");
 								
+//Anti honking
+addComponent("Anti honking", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Anti honking", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Anti honking", "ESP8266","10","yellow","ESP 01");
+addComponent("Anti honking", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Anti honking", "Sound","9" ,"orange","Mic Sensor");
+addComponent("Anti honking", "Buzzer","8" ,"GreenYellow ","Buzzer");
+addComponent("Anti honking", "3D Printing","9" ,"Violet");
+								
+//Parkinsons Assitive spoon
+addComponent("Parkinsons Assitive spoon", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Parkinsons Assitive spoon", "Orientation","9" ,"orange","MPU6050");
+addComponent("Parkinsons Assitive spoon", "Arduino Uno","10","yellow","Atmega328");
+addComponent("Parkinsons Assitive spoon", "Servo","10" ,"GreenYellow ","SG 90");
+addComponent("Parkinsons Assitive spoon", "3D Printing","9" ,"Violet");
+																
+//Spectacle Finder (DT Challenge 18)
+addComponent("Spectacle Finder", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Spectacle Finder", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Spectacle Finder", "ESP8266","10","yellow","ESP 01");
+addComponent("Spectacle Finder", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Spectacle Finder", "Buzzer","8" ,"GreenYellow ","Buzzer");
+addComponent("Spectacle Finder", "Blynk","10","cyan","It's an end-to-end solution which saves you time and resources when building applications for connected products and services.");
+addComponent("Spectacle Finder", "3D Printing","9" ,"Violet");
+
+//Inactive Alarm (DT Challenge 18)
+addComponent("Inactive Alarm", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Inactive Alarm", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Inactive Alarm", "ESP8266","10","yellow","ESP 01");
+addComponent("Inactive Alarm", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Inactive Alarm", "Vibration Motor","4","GreenYellow ","Servo SG90");
+addComponent("Inactive Alarm", "Vibration","9" ,"orange","Piezoelectric");
+								
+//Multi Point Switch Board (DT challenge 18)
+addComponent("Multi Point Switch Board", "3D Printing","9" ,"Violet");
+
+//Gas Safe (DT Challenge 18)
+addComponent("Gas Safe", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Gas Safe", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Gas Safe", "ESP8266","10","yellow","ESP 01");
+addComponent("Gas Safe", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Gas Safe", "Potentiometer","9" ,"orange","Potentiometer");
+addComponent("Gas Safe", "Blynk","10","cyan","It's an end-to-end solution which saves you time and resources when building applications for connected products and services.");
+addComponent("Gas Safe", "3D Printing","9" ,"Violet");
+							
+//Restaurant Hygiene Gadget (DT CHallenge 18)
+addComponent("Restaurant Hygiene Gadget", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Restaurant Hygiene Gadget", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Restaurant Hygiene Gadget", "ESP8266","10","yellow","ESP 01");
+addComponent("Restaurant Hygiene Gadget", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+								
+//Passenger Reminder (DT Challenge 17)
+addComponent("Passenger Reminder", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("Passenger Reminder", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("Passenger Reminder", "ESP8266","10","yellow","ESP 01");
+addComponent("Passenger Reminder", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("Passenger Reminder", "Vibration Motor","4","GreenYellow ","Servo SG90");
+									
+//Dark Knight (DT Challenge 17)
+addComponent("Dark Knight", "3D Printing","9" ,"Violet");
+								
+//Debris Protect (DT Challenge 17)
+addComponent("Debris Protect", "3D Printing","9" ,"Violet");
+									
+//Breakfast on the Go (DT challenge 17)
+addComponent("Breakfast on the Go", "3D Printing","9" ,"Violet");
+										
+//My Safe Child (DT CHallenge 17)
+addComponent("My Safe Child", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("My Safe Child", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("My Safe Child", "ESP8266","10","yellow","ESP 01");
+addComponent("My Safe Child", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("My Safe Child", "Heart Rate","9" ,"orange","Heart Rate Sensor");
+addComponent("My Safe Child", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+addComponent("My Safe Child", "3D Printing","9" ,"Violet");
+								
+//Rash Gone (DT Challenge 17)
+addComponent("My Safe Child", "Arduino","20","magenta","Open-source electronic prototyping platform enabling users to create interactive electronic objects");
+addComponent("My Safe Child", "Wifi","20","green","technology for wireless local area networking with devices based on the IEEE 802.11 standards");
+addComponent("My Safe Child", "ESP8266","10","yellow","ESP 01");
+addComponent("My Safe Child", "ESP8266","9","red","a low-cost Wi-Fi chip with full TCP/IP stack and MCU (microcontroller unit) capability ");
+addComponent("My Safe Child", "Moisture","9" ,"orange","Moisture Sensor");
+addComponent("My Safe Child", "IFTTT","10","cyan","IFTTT (if this, then that) is the easy, free way to get your apps and devices working together.");
+
+							
+																																																																																																
